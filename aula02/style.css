@@ -1,0 +1,27 @@
+
+.titulo {
+
+    color: rgb(112, 112, 197);
+}
+
+
+.card {
+  background-color: rgba(238, 130, 238, 0.907);
+  height: 150px;
+}
+.card2 {
+    background-color: rgba(61, 57, 196, 0.907);
+    height: 150px;
+  }
+
+h1 {
+    color: rgb(70, 70, 141);
+    background-color: #dfdc17;
+}
+
+h2 {
+    color: #D6D58E;
+}
+a{
+    background-color: cadetblue;
+}
