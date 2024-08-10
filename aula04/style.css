@@ -1,0 +1,41 @@
+* {
+   margin: 0;
+}
+
+header, footer {
+    background-color: rgb(232, 223, 223);
+    padding: 50px;
+}
+
+main {
+    background-color: rgb(169, 213, 214);
+}
+
+nav {
+    background-color: bisque;
+}
+
+ol li {
+}
+
+ul li {
+    background-color: rgb(19, 110, 12);
+}
+
+
+.container {
+    background-color: blueviolet;
+    padding: 50px;
+    margin: 50px 20px;
+
+}
+.container2 {
+    background-color: rgb(162, 116, 205);
+    padding: 50px ;
+    border-radius: 50px;
+}
+
+.pad {
+    padding-left: 25px;
+    margin-top: 40px;
+}
