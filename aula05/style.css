@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+}
+
+h1 {
+  margin: 20px;
+  background-color: rgb(198, 167, 227);
+  text-align: center;
+}
+h3 {
+  text-align: center;
+}
+p {
+  text-align: justify;
+}
+.card-image {
+  border: 2px solid blueviolet;
+  width: 460px;
+  margin: auto; /*  margin em auto, centraliza!*/
+}
+
+.card-image:hover {
+    box-shadow: 15px 15px 20px 3px rgba(0, 0, 0, 0.2);
+}
+
+img {
+  width: 100%;
+}
+p,
+h3 {
+  padding: 25px;
+}
+.card-video{
+    width: 60%;
+    max-width: 640px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse; /*Junta as bordas!*/
+}
+th, td {
+    border: 1px solid rgb(152, 150, 150);
+    text-align: center;
+}
+th {
+    background-color: rgb(61, 174, 61);
+}

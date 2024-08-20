@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Midias com HTML</title>
+  </head>
+  <body>
+    <header>
+      <h1>Inserindo e estilizando mídias</h1>
+    </header>
+    <main>
+      <div class="card-image">
+        <img src="./midias/images/new-york.jpg" alt="Imagem de NY a noite" />
+        <h3>Nova York, cidade dos sonhos!</h3>
+        <p>
+          "Nova York (Estado de Nova York) é um dos 50 estados pertencentes aos
+          Estados Unidos. Sua capital é a cidade de Albany. Localizado na costa
+          leste do país, Nova York dispõe de clima temperado e relevo planáltico
+          recoberto pelas florestas temperadas. O estado foi o 11º a ser
+          integrado na união, em 1788, além de ter sido uma das Treze Colônias."
+          Veja mais sobre "Nova York (estado)" em:
+          https://brasilescola.uol.com.br/geografia/nova-york.htm
+        </p>
+      </div>
+      <h3>Video de NY</h3>
+      <video
+        class="card-video"
+        autoplay
+        muted
+        loop
+        src="./midias/videos/new-youk.mp4"
+      ></video>
+
+      <audio
+        controls
+        src="./midias/sounds/new-york-city-filmset.mp3"
+        type="audio/mpeg"
+      ></audio>
+
+      <!--Tabela-->
+
+      <table>
+        <tr>
+          <th>Nome</th>
+          <th>Endereço</th>
+          <th>Telefone</th>
+          <th>Mídia</th>
+        </tr>
+        <tr>
+          <td>Samuel Santos</td>
+          <td>Rua da direita, 222</td>
+          <td>11 91888-7070</td>
+          <td>
+            <img
+              src="./midias/images/new-york.jpg"
+              alt="Imagem de NY a noite"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>Maria Isabelly</td>
+          <td>Rua da esquerda, 333</td>
+          <td>11 91888-7171</td>
+          <td>
+            <video
+              class="card-video"
+              autoplay
+              muted
+              loop
+              src="./midias/videos/new-youk.mp4"
+            ></video>
+          </td>
+        </tr>
+      </table>
+    </main>
+  </body>
+</html>

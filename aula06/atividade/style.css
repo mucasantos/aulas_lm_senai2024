@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+#styledDiv {
+    width: 200px;
+    height: 100px;
+    background-color: lightgray;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
