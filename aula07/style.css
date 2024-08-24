@@ -1,0 +1,55 @@
+.corpo {
+    height: 5000px;
+    background-color: bisque;
+}
+
+.fixo {
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    background-color: chocolate;
+    top: 50px;
+}
+.pai {
+    background-color: blueviolet;
+    height: 300px;
+    width: 300px;
+    margin: 50px;
+}
+
+.filho {
+    background-color: red;
+    height: 150px;
+    width: 150px;
+    position: relative;
+    top: 250px;
+    left: 50px;
+}
+
+.filho1 {
+    background-color: turquoise;
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    left: 120px;
+    top: 10px;
+}
+
+.filho2 {
+    background-color: rgb(224, 64, 213);
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    top: 20px;
+}
+.filho3 {
+    background-color: rgb(152, 217, 60);
+    position: relative;
+    height: 150px;
+    width: 150px;
+    left: 20px;
+}
+
+.radius {
+    border-radius: 30px;
+}
