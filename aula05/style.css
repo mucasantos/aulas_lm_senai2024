@@ -16,7 +16,7 @@ p {
 .card-image {
   border: 2px solid blueviolet;
   width: 460px;
-  margin: auto; /*  margin em auto, centraliza!*/
+  margin: 0 auto; /*  margin em auto, centraliza!*/
 }
 
 .card-image:hover {
