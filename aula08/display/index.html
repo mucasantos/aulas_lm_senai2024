@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Display CSS</title>
+    <style>
+        /* Display: block */
+        .block-element {
+            display: block;
+            width: 100%;
+            background-color: #add8e6;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #000;
+        }
+
+        /* Display: inline */
+        .inline-element {
+            display: inline;
+            background-color: #90ee90;
+            padding: 10px;
+            margin-right: 10px;
+            border: 1px solid #000;
+        }
+
+        /* Display: inline-block */
+        .inline-block-element {
+            display: inline-block;
+            width: 150px;
+            background-color: #ffcccb;
+            padding: 10px;
+            margin-right: 10px;
+            border: 1px solid #000;
+        }
+
+        /* Display: none */
+        .none-element {
+            display: none;
+            background-color: #ffa500;
+            padding: 10px;
+            border: 1px solid #000;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Display: block</h2>
+    <div class="block-element">Este é um elemento block. Ocupa toda a largura disponível.</div>
+    <div class="block-element">Outro elemento block. Começa em uma nova linha.</div>
+
+    <h2>Display: inline</h2>
+    <span class="inline-element">Elemento inline 1</span>
+    <span class="inline-element">Elemento inline 2</span>
+    <span class="inline-element">Elemento inline 3</span>
+
+    <h2>Display: inline-block</h2>
+    <div class="inline-block-element">Elemento inline-block 1</div>
+    <div class="inline-block-element">Elemento inline-block 2</div>
+    <div class="inline-block-element">Elemento inline-block 3</div>
+
+    <h2>Display: none</h2>
+    <div class="none-element">Este elemento não será exibido porque está com display: none.</div>
+
+</body>
+</html>

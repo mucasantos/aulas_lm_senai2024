@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.card {
+    position: relative;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding: 15px;
+    clear: both; /* Limpa flutuações anteriores */
+}
+
+.card img {
+    float: left;
+    margin-right: 15px;
+    border-radius: 50%;
+}
+
+.card img.img-right {
+    float: right;
+    margin-left: 15px;
+    margin-right: 0;
+}
+
+.card-content {
+    overflow: hidden; /* Evita que o conteúdo flutuado saia do contêiner */
+    position: relative; /* Necessário para posicionar o botão com relação ao conteúdo */
+}
+
+.card h3 {
+    margin-top: 0;
+}
+
+.card p {
+    margin: 10px 0 40px 0; /* Espaço extra para o botão */
+}
+
+/* Estilização do botão */
+.card-button {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.card-button:hover {
+    background-color: #0056b3;
+}

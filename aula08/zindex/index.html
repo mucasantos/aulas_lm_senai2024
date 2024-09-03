@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Z-Index</title>
+    <style>
+        .container {
+            width: 400px;
+            height: 500px;
+            background-color: blueviolet;
+            position: absolute;
+            z-index: -1;
+        }
+
+        .box {
+            position: absolute;
+            width: 150px;
+            height: 150px;
+            border: 2px solid #000;
+            opacity: 0.8;
+        }
+
+        .box1 {
+            background-color: #ff6347;
+            /* Tomate */
+            top: 50px;
+            left: 50px;
+            z-index: 1;
+        }
+
+        .box2 {
+            background-color: #4682b4;
+            /* Azul aço */
+            top: 100px;
+            left: 100px;
+            z-index: 2; /* Alterado para 2 conforme o comentário */
+        }
+
+        .box3 {
+            background-color: #32cd32;
+            /* Verde lima */
+            top: 150px;
+            left: 150px;
+            z-index: 3; /* Alterado para 3 conforme o comentário */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container"> </div>
+
+        <div class="box box1">Caixa 1 (z-index: 1)</div>
+        <div class="box box2">Caixa 2 (z-index: 2)</div> <!-- Alterado de 3 para 2 -->
+        <div class="box box3">Caixa 3 (z-index: 3)</div> <!-- Alterado de 2 para 3 -->
+
+   
+</body>
+
+</html>
