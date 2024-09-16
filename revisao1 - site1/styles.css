@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+   width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    background-color: #fff;
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+header .container {
+    overflow: hidden; /* Clearfix for floated elements */
+}
+
+header h1 {
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header h1 span {
+    color: #0d6efd;
+}
+
+header nav {
+    float: left;
+    margin-left: 40px;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    float: left;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.header-buttons {
+    float: right;
+}
+
+.purchase-btn {
+    background-color: #0d6efd;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.search-btn {
+    font-size: 24px;
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+}
+
+.container-cards{
+    padding-top: 30px;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #f7f9fc;
+    padding: 60px 0;
+}
+
+.hero .container {
+    overflow: hidden; /* Clearfix for floated elements */
+}
+
+.hero-text {
+    float: left;
+    width: 50%;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    color: #333;
+}
+
+.hero-text h1 span {
+    color: #0d6efd;
+}
+
+.hero-text p {
+    margin: 20px 0;
+}
+
+.hero-text .btn-primary {
+    background-color: #0d6efd;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.hero-text .btn-secondary {
+    border: 2px solid #0d6efd;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    color: #0d6efd;
+    margin-left: 20px;
+}
+
+.hero-image {
+    float: right;
+    width: 40%;
+}
+
+.hero-image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Features Section */
+.features {
+    background-color: #f1f3f5;
+    padding: 60px 0;
+}
+
+.features .container {
+    overflow: hidden; /* Clearfix for floated elements */
+}
+
+.feature-text {
+    float: left;
+    width: 60%;
+}
+
+.card {
+    display: inline-block;
+    margin-left: 30px;
+    width:30%
+} 
+
+.card:hover {
+    transform: translateY(-5px); /* Eleva a imagem ligeiramente */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Aumenta a sombra */
+
+    transform: scale(1.1); /* Efeito de zoom */
+}
+
+.card img{
+    width: 100%;
+
+}
+
+.feature-cards .card {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.feature-cards .card h4 {
+    margin-bottom: 10px;
+}

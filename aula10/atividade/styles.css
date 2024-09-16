@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    height: 100vh;
+    display: block; /* Removido o display: flex */
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 50px auto; /* Centraliza o contêiner */
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    clear: both; /* Limpa floats */
+}
+
+.left-section {
+    float: left;
+    width: 50%; /* 50% da tela para a imagem */
+    background-color: #f1e5d8;
+}
+
+.left-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Mantém a proporção da imagem */
+    clear: both; /* Limpa floats */
+}
+
+.right-section {
+    float: left;
+    width: 50%; /* 50% da tela para o formulário */
+    padding: 40px;
+}
+
+.right-section h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+form {
+    display: block;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    padding: 10px;
+    background-color: #1098ad;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    width: 100%;
+}
+
+input[type="submit"]:hover {
+    background-color: #0b7a91;
+}
+
+/* Limpa as floats para evitar problemas de layout */
+.container::after {
+    content: "";
+    display: table;
+    clear: both;
+}

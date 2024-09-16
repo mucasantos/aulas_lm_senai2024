@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Usuário</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left-section">
+            <img src="./img/celular.jpeg" alt="Imagem ilustrativa">
+        </div>
+        <div class="right-section">
+            <h2>Cadastro de Usuário</h2>
+            <form action="/submit" method="post">
+                <label for="name">Nome Completo:</label>
+                <input type="text" id="name" name="name" placeholder="Digite seu nome completo" required><br><br>
+
+                <label for="address">Endereço:</label>
+                <input type="text" id="address" name="address" placeholder="Digite seu endereço" required><br><br>
+
+                <label for="phone">Telefone:</label>
+                <input type="tel" id="phone" name="phone" placeholder="(xx) xxxx-xxxx" required><br><br>
+
+                <label for="mobile">Celular:</label>
+                <input type="tel" id="mobile" name="mobile" placeholder="(xx) xxxxx-xxxx" required><br><br>
+
+                <label for="password">Senha:</label>
+                <input type="password" id="password" name="password" placeholder="Digite sua senha" required><br><br>
+
+                <label for="confirm-password">Confirmar Senha:</label>
+                <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirme sua senha" required><br><br>
+
+                <input type="submit" value="Cadastrar">
+            </form>
+        </div>
+    </div>
+</body>
+</html>

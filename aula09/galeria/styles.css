@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+.gallery {
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden; /* Clearfix for floated elements */
+}
+
+.gallery-item {
+    display: inline-block;
+    width: calc(33.333% - 20px); /* Responsivo: 3 itens por linha, com margem */
+    margin: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transição suave */
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease; /* Transição suave para o zoom */
+}
+
+/* Efeitos de hover */
+.gallery-item:hover {
+    transform: translateY(-5px); /* Eleva a imagem ligeiramente */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Aumenta a sombra */
+}
+
+.gallery-item:hover img {
+    transform: scale(1.1); /* Efeito de zoom */
+}
